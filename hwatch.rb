@@ -10,7 +10,6 @@ class Hwatch < Formula
 
   def install
     bin.install Dir['hwatch']
-    zsh_completion.install hwatch/completions/_hwatch
   end
   test do
     system "#{bin}/hwatch"

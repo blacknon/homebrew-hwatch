@@ -2,11 +2,9 @@ class Hwatch < Formula
   desc "alternative watch command"
   homepage "https://github.com/blacknon/hwatch"
   if OS.mac?
-      url "https://github.com/blacknon/hwatch/releases/download/0.1.3/hwatch_0.1.3_darwin_amd64.tar.gz"
-    sha256 "7902fc6daa35e9a111d99d13015f961aec8b881888740eb5236ff5aa45d517e7"
+      url "https://github.com/blacknon/hwatch/releases/download/0.2.0/hwatch_0.2.0_darwin_amd64.tar.gz"
+    sha256 "ea127e57b362c0e4adbea86365fc9b3913ba5226b5ad8d6e12f8a17c413e6d43"
   end
-
-  depends_on 'ncurses'
 
   def install
     bin.install Dir['hwatch']

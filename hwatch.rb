@@ -7,7 +7,7 @@ class Hwatch < Formula
   end
 
   def install
-    bin.install Dir['hwatch']
+    bin.install Dir['bin/hwatch']
   end
   test do
     system "#{bin}/hwatch"

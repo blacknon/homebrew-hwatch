@@ -3,7 +3,7 @@ class Hwatch < Formula
   homepage "https://github.com/blacknon/hwatch"
   if OS.mac?
     url "https://github.com/blacknon/hwatch/releases/download/0.3.1/hwatch-0.3.1.x86_64-apple-darwin.tar.gz"
-    sha256 "62b89250d443723b6748a8da842174df0b8f0343e44f00d066faa903eab0104f"
+    sha256 "5743f2c5d8bbdfede70bd8b64b1ea9bf01e752ebdb77c25b000e860a48037b94"
   end
 
   def install
